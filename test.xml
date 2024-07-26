@@ -3052,6 +3052,24 @@
 			<picture>https://domostroy.shop/upload/resize_cache/iblock/d2c/350_350_1/lr0039k9htbri0tg6dtgcrlaml3jr4o2.jpg</picture>
 		</stock>
 	</offer>
+	    <offer available="false" group_id="26495235653635" id="123321">
+		<url>https://www.tous.com/il-iw/טבעת-מזהב-לבן-18-קראט-עם-לב-בשיבוץ-יהלומים-0-02-קראט-מקולקציית-puppies-גודל-לב-0-5-ס-מ-תעודת-אחריות-זהב-לבן-18-קראט-יבואן-אלפא-אקססוריז-בע-מ-שבילי-הדפנה-4-פארק-תעשיות-בר-לב-טל-073-2695650-ח-פ-514912609-יצרן-ספרד-tous/p/c415265000</url>
+		<price>710.0</price>
+		<currencyId>ILS</currencyId>
+		<categoryId>2882</categoryId>
+		<picture>https://cloud-media.tous.com/medias/sys_master/images/h1d/h2b/13536377012254/515Wx515H_product_2002133801-20240701130135/515Wx515H-product-2002133801-20240701130135.jpg</picture>
+		<name><![CDATA[ארנק TOUS MANIFESTO Essence בצבע בז']]></name>
+		<vendor>TOUS</vendor>
+		<param name="addedDate">2024-07-24</param>
+		<param name="second_image">https://cloud-media.tous.com/medias/sys_master/images/h7f/h19/13547081072670/515Wx515H_product_2002133801_9-20240705130226/515Wx515H-product-2002133801-9-20240705130226.jpg</param>
+		<param name="productCode">2002133801</param>
+		<stock id="tousStore-il-iw_IL">
+		    <url>https://www.tous.com/il-iw/%d7%90%d7%a8%d7%a0%d7%a7-tous-manifesto-essence-%d7%91%d7%a6%d7%91%d7%a2-%d7%91%d7%96-/p/2002133801</url>
+		    <name><![CDATA[ארנק TOUS MANIFESTO Essence בצבע בז']]></name>
+		    <available>false</available>
+		    <description/>
+		</stock>
+	    </offer>	
 	</offers>
 </shop>
 </yml_catalog>
