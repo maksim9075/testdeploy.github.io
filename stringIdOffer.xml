@@ -1,20 +1,109 @@
-﻿<!DOCTYPE yml_catalog SYSTEM "../../../yml.dtd">
+<!DOCTYPE yml_catalog SYSTEM "../../../yml.dtd">
 <yml_catalog date="2021-03-05T18:51:32.6237802+03:00">
-    <shop>
-        <categories>
-            <category id="1">ed6b742f-074b-4a7b-bc23-20fc20f77962</category>
-            <category id="2" parentId="1">33664089-e2a2-40f8-aec9-264a7c9731a0</category>
-        </categories>
-        <offers>
-            <offer available="true" id="LPa_200520">
-                <name>Носки горнолыжные тёмно-синие Deway 100</name>
-                <url>https://desport.ru/product/noski-gornolyzhnye-tmno-sinie-deway-100-lpm-800143</url>
-                <price>799</price>
-                <vendorCode>LPm_800143</vendorCode>
-                <categoryId>1</categoryId>
-                <description>СОХРАНЕНИЕ ТЕПЛА</description>
-                <picture>https://test.pic</picture>
-            </offer>
-        </offers>
-    </shop>
+  <shop>
+    <categories>
+      <category id="1">Furniture</category>
+      <category id="2" parentId="1">Chairs</category>
+    </categories>
+    <delivery-options>
+      <option cost="984201202" days="21" />
+    </delivery-options>
+    <offers>
+      <offer id="validProduct" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="withoutCategory" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="duplicatedStockId" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+        <stock id="123">
+          <available>false</available>
+        </stock>
+        <stock id="123">
+          <available>false</available>
+        </stock>
+      </offer>
+      <offer id="incorrectParamName" available="true">
+        <param name="1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcbaIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba1234567890ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfe">f666b3a5-795f-4108-ae45-8395b26d8f67</param>
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="incorrectPictureUrl" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>invalidPicture</picture>
+      </offer>
+      <offer id="incorrectPrice" available="true">
+        <url>http://producturl.ru</url>
+        <price>randomString</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="incorrectStockedOldPrice" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+        <stock id="123">
+          <oldprice>randomString</oldprice>
+        </stock>
+      </offer>
+      <offer id="incorrectStockedPrice" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+        <stock id="123">
+          <price>randomString</price>
+        </stock>
+      </offer>
+      <offer id="incorrectUrl" available="true">
+        <url>randomText</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="stockIdIsEmpty" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+        <stock id="">
+        </stock>
+      </offer>
+      <offer id="duplicatedProductId" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="duplicatedProductId" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+      </offer>
+      <offer id="incorrectDescription" available="true">
+        <url>http://producturl.ru</url>
+        <price>500</price>
+        <categoryId>1</categoryId>
+        <picture>http://pictureurl.ru</picture>
+        <description>Невалидный offer, так как в описании используется неэкранированная HTML-разметка <span class="more">Первый незаконный HTML-тэг</span> bla-bla-bla
+          <div class="more-content">Второй незаконный HTML-тэг</div>
+        </description>
+      </offer>
+    </offers>
+  </shop>
 </yml_catalog>
