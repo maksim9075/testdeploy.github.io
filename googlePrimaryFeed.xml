@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+	<channel>
+		<title>Example 1.1</title>
+		<link>https://retailrocket.net</link>
+		<description>Partial primary feed example (part 1), only required product properties</description>
+		<item>
+			<g:id>A1</g:id>
+			<g:title>LG 22LB4510 - 22" LED TV - 1080p (FullHD)</g:title>
+			<g:description>Attractively styled and boasting stunning picture quality, the LG 22LB4510 - 22&quot; LED TV - 1080p (FullHD) is an excellent television/monitor. The LG 22LB4510 - 22&quot; LED TV - 1080p (FullHD) sports a widescreen 1080p panel, perfect for watching movies in their original format, whilst also providing plenty of working space for your other applications.</g:description>
+			<g:link>http://www.example.com/electronics/tv/22LB4510.html</g:link>
+			<g:image_link>https://retailrocket.net/TV_123456.png</g:image_link>
+			<g:condition>used</g:condition>
+			<g:availability>in stock</g:availability>
+			<g:price>159.00 RUB</g:price>
+			<g:shipping>
+				<g:country>US</g:country>
+				<g:service>Standard</g:service>
+				<g:price>14.95 RUB</g:price>
+			</g:shipping>
+		</item>
+		<item>
+			<g:id>A2</g:id>
+			<g:title><![CDATA[Merlin: Series 3 - Volume 2 - 3 DVD Box set]]></g:title>
+			<g:description><![CDATA[Episodes 7-13 from the third series of the BBC fantasy drama set in the mythical city of Camelot, telling the tale of the relationship between the young King Arthur (Bradley James) & Merlin (Colin Morgan), the wise sorcerer who guides him to power and beyond. Episodes are: 'The Castle of Fyrien', 'The Eye of the Phoenix', 'Love in the Time of Dragons', 'Queen of Hearts', 'The Sorcerer's Shadow', 'The Coming of Arthur: Part 1' & 'The Coming of Arthur: Part 2']]></g:description>
+			<g:link><![CDATA[https://retailrocket.net/media/dvd/?sku=384616&src=gshopping&lang=en]]></g:link>
+			<g:image_link><![CDATA[https://retailrocket.net/DVD-0564738?size=large&format=PNG]]></g:image_link>
+			<g:condition>new</g:condition>
+			<g:availability>in stock</g:availability>
+			<g:price>11.99 RUB</g:price>
+			<g:shipping>
+				<g:country>US</g:country>
+				<g:service>Express Mail</g:service>
+				<g:price>3.80 RUB</g:price>
+			</g:shipping>
+		</item>
+	</channel>
+</rss>
