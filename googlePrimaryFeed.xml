@@ -18,6 +18,7 @@
 				<g:service>Standard</g:service>
 				<g:price>14.95 RUB</g:price>
 			</g:shipping>
+			<g:product_type>Дом и сад &gt; Посуда &gt; Столовые приборы</g:product_type>
 		</item>
 		<item>
 			<g:id>A2</g:id>
@@ -33,6 +34,7 @@
 				<g:service>Express Mail</g:service>
 				<g:price>3.80 RUB</g:price>
 			</g:shipping>
+			<g:product_type>Дом и сад &gt; Посуда &gt; Вилки</g:product_type>
 		</item>
 	</channel>
 </rss>
